@@ -1,0 +1,45 @@
+
+header{
+    background-color: #ffffff;
+    
+
+    div img{
+        background-color: #ffffff;
+        height: 100px;
+    }
+
+    nav {
+        background-color: #163D34;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        
+        
+            ul{
+                    display: flex;
+                    list-style-type: none;
+                    align-items: center;
+                    
+                    
+                li{
+                    
+                    margin: 25px;
+                    font-size: 26px;
+                    a{
+                        text-decoration: none;
+                        color: red;
+                        font-family: 'Courier New', Courier, monospace;
+                        
+                        &:active{
+                            
+                            color: gold;
+                        }
+                    
+                    
+                    }
+                }
+
+  
+        }
+    }
