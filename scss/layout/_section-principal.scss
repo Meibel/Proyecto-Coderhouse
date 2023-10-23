@@ -1,3 +1,6 @@
+
+
+
 section{
     h1{
         color: #163D34;
@@ -17,4 +20,130 @@ section{
     }
 
 }
+
+
+
+    .grid-container{
+               
+        margin: 35px;
+        background-color: #7C97A3;
+        height: 30px;
+        /* grids */
+    
+        display: grid;
+        position: relative;
+    
+        /*columnas*/
+        grid-template-columns: repeat(2, 1fr);
+    
+        /* rows*/
+        grid-template-rows: repeat(2, 1fr);
+    
+        /*gap separacion entre columnas o filas */
+     
+        column-gap: 1px;
+        /*
+        padding-left: 5px;
+        padding-bottom: 5px;*/
+    
+        padding: 2px;
+       
+        }
+        
+        .uno{
+           
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 20px;
+            font-display: 'Nunito Sans', sans-serif;
+            color: #ffffff;
+            /*padding-left: 15px;*/
+            
+            border-right: 2px solid white;
+            padding-inline: 120px;
+
+            }
+
+        .dos{
+            padding-inline: 130px;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 20px;
+            color: #ffffff;
+            margin-left: 20px;
+           
+        }
+        
+        
+    
+
+   
+        .listascentrales{
+            color: #7C97A3;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 16px;
+             margin-left: 180px;
+            
+        
+        }
+
+        .centrales{
+            display: flex;
+            height: 400px;
+            /*elemento para alinear los elementos*/
+            align-items: center;
+            flex-wrap: wrap;
+            /*propiedad para el container*/
+            /*justify es para poder poner a los elementos en el lugar que nosotros queramos*/
+            justify-content: space-around;
+            padding: 25px;
+            flex-direction: row-reverse;
+            /*BORDER*/
+            border-radius: 5px solid;
+        }
+        
+        .centrales img{    
+            width: 250px;
+            
+        }
+        
+        .centrales p{
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .centrales-uno{
+            background-color: #1D5770;
+            padding: 5px;   
+            position: relative;
+            /*propiedad para mover los items de manera independiente*/
+            align-self: stretch;
+            border-radius: 5px;
+            font-family: 'Nunito Sans', sans-serif;
+            color: #ffffff
+        }
+
+        .centrales-dos{
+            padding: 5px;
+            background-color: #1D5770;
+            position: relative;
+            align-self: stretch;
+            border-radius: 5px;
+            font-family: 'Nunito Sans', sans-serif; ;
+        
+        }
+        
+        
+        .centrales-tres{
+            padding: 5px;
+            background-color: #1D5770;
+            position: relative;
+            align-self: stretch;
+            border-radius: 5px;    
+            font-family: 'Nunito Sans', sans-serif;;
+        }
+        
+    
+
+
+
+
 
