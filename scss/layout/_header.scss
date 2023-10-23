@@ -25,15 +25,16 @@ header{
                 li{
                     
                     margin: 25px;
-                    font-size: 26px;
+                    
                     a{
                         text-decoration: none;
-                        color: red;
-                        font-family: 'Courier New', Courier, monospace;
+                        color: #ffffff;
+                        font-family: 'Nunito Sans', sans-serif;
                         
-                        &:active{
-                            
-                            color: gold;
+                        &:hover{                       
+                            color: #163D34;
+                            background-color: #4B9461;
+                            padding: 10px;
                         }
                     
                     
@@ -41,5 +42,6 @@ header{
                 }
 
   
-        }
+            }
     }
+}

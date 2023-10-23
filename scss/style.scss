@@ -1,4 +1,6 @@
 // Style.scss archivo raiz y solo debe contener los imports.
 
-@import 'header';
-@import "reset";
+@import "layout/header";
+@import "base/reset";
+@import "base/fonts";
+@import "layout/section-principal";
