@@ -265,4 +265,18 @@ footer .centro-footer03 {
   height: 10%;
   list-style-type: none;
   background-color: #ffffff;
+}
+
+.parrafos-fechas {
+  text-align: right;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.textos-left {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
