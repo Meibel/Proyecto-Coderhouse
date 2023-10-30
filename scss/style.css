@@ -127,7 +127,7 @@ section h2 {
 }
 
 section .centrales-uno {
-  background-color: #1D5770;
+  background-image: linear-gradient(to top, #1D5770, #7C97A3);
   padding: 5px;
   /*propiedad para mover los items de manera independiente*/
   align-self: stretch;
@@ -136,14 +136,14 @@ section .centrales-uno {
 
 section .centrales-dos {
   padding: 5px;
-  background-color: #1D5770;
+  background-image: linear-gradient(to top, #1D5770, #7C97A3);
   align-self: stretch;
   border-radius: 5px;
 }
 
 .centrales-tres {
   padding: 5px;
-  background-color: #1D5770;
+  background-image: linear-gradient(to top, #1D5770, #7C97A3);
   align-self: stretch;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -280,7 +280,7 @@ footer .centro-footer03 {
   font-size: 16px;
 }
 
-.contendedor-superior {
+.contendedor-transform {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

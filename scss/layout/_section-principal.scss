@@ -111,7 +111,7 @@ section{
     }
 
     section .centrales-uno{
-        background-color: #1D5770;
+        background-image: linear-gradient(to top, #1D5770, #7C97A3);
         padding: 5px;   
         /*propiedad para mover los items de manera independiente*/
         align-self: stretch;
@@ -121,7 +121,7 @@ section{
 
     section .centrales-dos{
         padding: 5px;
-        background-color: #1D5770;
+        background-image: linear-gradient(to top, #1D5770, #7C97A3);
         align-self: stretch;
         border-radius: 5px;
         
@@ -130,7 +130,7 @@ section{
 
     .centrales-tres{
         padding: 5px;
-        background-color: #1D5770;
+        background-image: linear-gradient(to top, #1D5770, #7C97A3);
         align-self: stretch;
         font-family: 'Nunito Sans', sans-serif;
        
