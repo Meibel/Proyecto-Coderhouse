@@ -1,0 +1,31 @@
+$color-cide: #163D34;
+
+
+
+.textos-centrados{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.textos-left{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.lista-numeros{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 15px;
+
+}
+
+.lista-datosAP{
+    color: $color-cide;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    margin-left: 50px;    
+}

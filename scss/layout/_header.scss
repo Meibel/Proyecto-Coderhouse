@@ -1,3 +1,5 @@
+$color-cide: #163D34;
+
 
 header{
     background-color: #ffffff;
@@ -9,7 +11,8 @@ header{
     }
 
     nav {
-        background-color: #163D34;
+        background-color: $color-cide;
+        ;
         margin-top: 10px;
         display: flex;
         justify-content: center;
@@ -32,7 +35,7 @@ header{
                         font-family: 'Nunito Sans', sans-serif;
                         
                         &:hover{                       
-                            color: #163D34;
+                            color: $color-cide;
                             background-color: #4B9461;
                             padding: 10px;
                         }

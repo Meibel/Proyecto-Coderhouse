@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto:ital,wght@0,100;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:ital,wght@0,100;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto+Mono:wght@700&family=Roboto:ital,wght@0,100;0,400;1,700&display=swap");
 header {
   background-color: #ffffff;
 }
@@ -99,15 +100,16 @@ section h2 {
 }
 
 .centrales {
+  margin-top: 30px;
   display: flex;
-  height: 400px;
+  height: 450px;
   /*elemento para alinear los elementos*/
   align-items: center;
   flex-wrap: wrap;
   /*propiedad para el container*/
   /*justify es para poder poner a los elementos en el lugar que nosotros queramos*/
   justify-content: space-around;
-  padding: 25px;
+  padding: 5px;
   flex-direction: row-reverse;
   /*BORDER*/
   border-radius: 5px solid;
@@ -118,50 +120,47 @@ section h2 {
 }
 
 .centrales p {
+  font-family: "Nunito Sans", sans-serif;
   color: #ffffff;
   text-align: center;
+  font-size: 24px;
 }
 
-.centrales-uno {
-  background-image: linear-gradient(to top, #1D5770, #ffffff);
+section .centrales-uno {
+  background-color: #1D5770;
   padding: 5px;
-  position: relative;
   /*propiedad para mover los items de manera independiente*/
   align-self: stretch;
   border-radius: 5px;
-  font-family: "Nunito Sans", sans-serif;
-  color: #ffffff;
 }
 
-.centrales-dos {
+section .centrales-dos {
   padding: 5px;
-  background-image: radial-gradient(circle, #ffffff, #1D5770);
-  position: relative;
+  background-color: #1D5770;
   align-self: stretch;
   border-radius: 5px;
-  font-family: "Nunito Sans", sans-serif;
 }
 
 .centrales-tres {
   padding: 5px;
-  background-image: linear-gradient(to top, #1D5770, #ffffff);
-  position: relative;
+  background-color: #1D5770;
   align-self: stretch;
-  border-radius: 5px;
   font-family: "Nunito Sans", sans-serif;
 }
 
 footer {
   margin-top: 50px;
   background-color: #4B9461;
-  height: 170px;
+  height: auto;
   text-align: center;
+  padding: 10px;
 }
 footer a {
+  margin-top: 20px;
   color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 18px;
 }
 footer .centro-footer01 {
   margin-top: 5px;
@@ -279,4 +278,37 @@ footer .centro-footer03 {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
+}
+
+.contendedor-superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textos-centrados {
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.textos-left {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.lista-numeros {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.lista-datosAP {
+  color: #163D34;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  margin-left: 50px;
 }/*# sourceMappingURL=style.css.map */
