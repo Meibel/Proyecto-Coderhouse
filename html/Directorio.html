@@ -8,6 +8,11 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="../scss/style.css">
 
+        <!--animate -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
 
@@ -15,13 +20,14 @@
     
 
     <header>
-        <img src="../assets/images/intranet.png" alt="Logo Intranet">
+        <div><img src="../assets/images/intranet.png" class="animate__animated animate__pulse"></div>
 
 
     
         
-        <nav>
-            <ul>
+        <nav class="nav">
+            <button class="abrir-menu">Abrir</button>
+            <ul class="nav-list">
                 <li><a href="../index.html" class="navegador">Portal</a></li>
                 <li><a href="Becas.html">Becas</a></li>
                 <li><a href="Calendario.html">Calendario</a></li>
@@ -30,7 +36,6 @@
             </ul>
 
         </nav>
-
         
     </header>
 

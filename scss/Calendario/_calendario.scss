@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.calendarios{
+
+    margin-bottom: auto;
+    
+    
+
+    @include mobile{
+        width: 100%;
+    }
+
+    @include tablet{
+        width: 100%;
+    }
+}
+   

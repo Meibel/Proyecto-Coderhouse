@@ -1,4 +1,10 @@
 
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 
 section{
     h1{
@@ -7,7 +13,9 @@ section{
         font-size: 34px;
         margin-top: 25px;
         font-family: 'Roboto Flex', sans-serif;
-    }
+       
+        }
+    
 
     h2{
         color: #163D34;
@@ -24,67 +32,94 @@ section{
 
     .grid-container{
                
-        margin: 35px;
-        background-color: #7C97A3;
-        height: 30px;
+        margin: 10px;
+       
+        background-color: #ffffff;
+        height: auto;
         /* grids */
     
         display: grid;
-        position: relative;
     
         /*columnas*/
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     
-        /* rows*/
+        /* rows*
         grid-template-rows: repeat(2, 1fr);
     
         /*gap separacion entre columnas o filas */
      
-        column-gap: 1px;
+        /*column-gap: 1px;
         /*
         padding-left: 5px;
         padding-bottom: 5px;*/
     
-        padding: 2px;
-       
+        padding: 1px;
+        gap: 1px;
+
+    
+            
         }
-        
-        .uno{
+
+       
+    .uno{
            
             font-family: 'Nunito Sans', sans-serif;
             font-size: 20px;
             font-display: 'Nunito Sans', sans-serif;
             color: #ffffff;
+            text-align: center;
             /*padding-left: 15px;*/
             
             border-right: 2px solid white;
-            padding-inline: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #7C97A3;
+            
 
             }
 
-        .dos{
+    .dos{
             padding-inline: 130px;
             font-family: 'Nunito Sans', sans-serif;
             font-size: 20px;
             color: #ffffff;
-            margin-left: 20px;
+            text-align: center;
+            
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #7C97A3;
+
+            
            
         }
         
-        
-        .listascentrales{
+
+            
+    .listascentrales{
+                
             color: #7C97A3;
+      
             font-family: 'Nunito Sans', sans-serif;
             font-size: 16px;
-             margin-left: 180px;
-            
-        
-        }
+            margin-left: 60px;
+
+            @include mobile{
+                width: 80%;
+            }
+
+    }
+
+         
 
     .centrales{
         margin-top: 30px;
+        margin-bottom: 20px;
         display: flex;
-        height: 450px;
+        
         /*elemento para alinear los elementos*/
         align-items: center;
         flex-wrap: wrap;
@@ -95,12 +130,27 @@ section{
         flex-direction: row-reverse;
         /*BORDER*/
         border-radius: 5px solid;
+
+        @include mobile{
+            width: 100%;
+            gap: 10px;
+        }
+
+        @include tablet{
+            width: 100%;
+            gap: 10px;
+        }
+
+  
+    
     
     }
    
     .centrales img{
         width: 250px;
-            
+        height: auto;
+        
+  
     }
 
     .centrales p{
@@ -116,7 +166,11 @@ section{
         /*propiedad para mover los items de manera independiente*/
         align-self: stretch;
         border-radius: 5px;
-        
+
+
+
+       
+
     }
 
     section .centrales-dos{
@@ -125,7 +179,7 @@ section{
         align-self: stretch;
         border-radius: 5px;
         
-
+   
     }
 
     .centrales-tres{
@@ -133,6 +187,7 @@ section{
         background-image: linear-gradient(to top, #1D5770, #7C97A3);
         align-self: stretch;
         font-family: 'Nunito Sans', sans-serif;
+        
        
  
     }

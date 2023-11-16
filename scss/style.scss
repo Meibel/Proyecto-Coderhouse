@@ -1,5 +1,5 @@
 // Style.scss archivo raiz y solo debe contener los imports.
-
+@import "estructura/media-queries";
 @import "layout/header";
 @import "base/reset";
 @import "base/fonts";
@@ -8,3 +8,4 @@
 @import "components/caja";
 @import "Becas/becas";
 @import "Aviso/AvisoPrivacidad";
+@import "Calendario/calendario";

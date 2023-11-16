@@ -7,16 +7,24 @@
 
     <!--css-->
     <link rel="stylesheet" href="../scss/style.css">
+
+      <!--animate-->    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
 
     <header>
-        <img src="../assets/images/intranet.png" alt="Logo Intranet">
+        <div><img src="../assets/images/intranet.png" class="animate__animated animate__pulse"></div>
 
 
-        <nav>
-            <ul>
+
+        <nav class="nav">
+            <button class="abrir-menu">Abrir</button>
+            <ul class="nav-list">
                 <li><a href="../index.html">Portal</a></li>
                 <li><a href="Directorio.html" class="navegador">Directorio</a></li>
                 <li><a href="Calendario.html">Calendario</a></li>
@@ -25,6 +33,10 @@
             </ul>
 
         </nav>
+
+
+        </nav>
+
     </header>
 
     <main>
@@ -61,17 +73,18 @@
         
         <p class="lista-datosAP"><strong>Datos de Identificación</strong></p>
     
-        </br>  
+         
 
              <ol class="lista-numeros">
-                <li><a class="lista-numeros">Clave Única de Registro de Población (CURP)</a></li>
-                <li><a class="lista-numeros">Nombre</a></li>
-                <li><a class="lista-numeros">Lugar y Fecha de Nacimiento</a></li>
-                <li><a class="lista-numeros">Nacionalidad</a></li>
-                <li><a class="lista-numeros">Estado Civil</a></li>
-                <li><a class="lista-numeros">Trayectoria académica, laboral o profesional</a></li>
+                <li><p>Clave Única de Registro de Población (CURP)</p></li>
+                <li><p>Nombre</p></li>
+                <li><p>Lugar y Fecha de Nacimiento</p></li>
+                <li><p>Nacionalidad</p></li>
+                <li><p>Estado Civil</p></li>
+                <li><p>Trayectoria académica, laboral o profesional</p></li>
             </ol>
-        
+        <br>
+        <br>
 
 
     </main>
